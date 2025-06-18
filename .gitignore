@@ -1,0 +1,18 @@
+# Python 관련 무시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# C++ 관련 무시 파일
+*.o
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
