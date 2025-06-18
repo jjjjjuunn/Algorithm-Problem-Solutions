@@ -21,3 +21,6 @@ venv/
 C++/*
 !C++/*.cpp
 !C++/*.h
+
+# VS Code Code Runner 임시 파일 무시
+C++/tempCodeRunnerFile.cpp
