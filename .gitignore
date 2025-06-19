@@ -19,8 +19,8 @@ venv/
 
 # C++ 폴더 내 확장자 없는 파일(실행 파일) 무시
 C++/*
-!C++/*.cpp
-!C++/*.h
+!C++/**/*.cpp
+!C++/**/*.h
 
 # VS Code Code Runner 임시 파일 무시
 C++/tempCodeRunnerFile.cpp
