@@ -24,3 +24,9 @@ C++/*
 
 # VS Code Code Runner 임시 파일 무시
 C++/tempCodeRunnerFile.cpp
+
+# macOS 시스템 파일 무시
+.DS_Store
+
+# VS Code 설정 무시
+.vscode/
