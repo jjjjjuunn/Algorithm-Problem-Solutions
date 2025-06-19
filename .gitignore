@@ -7,7 +7,7 @@ __pycache__/
 venv/
 .venv/
 
-# C++ 관련 무시 파일
+# C++ 관련 무시 파일 (빌드 산출물)
 *.o
 *.exe
 *.out
@@ -17,16 +17,19 @@ venv/
 *.lib
 *.dylib
 
-# C++ 폴더 내 확장자 없는 파일(실행 파일) 무시
-C++/*
-!C++/**/*.cpp
-!C++/**/*.h
-
-# VS Code Code Runner 임시 파일 무시
-C++/tempCodeRunnerFile.cpp
-
 # macOS 시스템 파일 무시
 .DS_Store
 
 # VS Code 설정 무시
 .vscode/
+
+# VS Code Code Runner 임시 파일 무시
+C++/tempCodeRunnerFile.cpp
+
+# C++ 하위 폴더 내 BOJ_로 시작하는 실행 파일 무시 (확장자 없는 파일)
+C++/**/BOJ_*
+
+# C++ 하위 폴더 내 .cpp, .h 파일만 추적
+!C++/**/*.cpp
+!C++/**/*.h
+!C++/**/
