@@ -6,6 +6,7 @@ __pycache__/
 .env
 venv/
 .venv/
+**/tempCodeRunnerFile.py
 
 # C++ 관련 무시 파일 (빌드 산출물)
 *.o
