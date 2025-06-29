@@ -2,6 +2,7 @@
 # 다른 방법으로도 구현해보기
 # 복습하기
 
+# 방법 1
 word = input().upper()
 
 word_dict = {}
@@ -25,3 +26,8 @@ if count == 1:
     print(max_key)
 else :
     print('?')
+
+
+# 방법 2 : list와 set으로도 구현해보기
+
+# 방법 3 : copilot이 제시한 방법으로도 구현해보기
