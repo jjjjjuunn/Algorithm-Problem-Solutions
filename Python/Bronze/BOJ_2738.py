@@ -1,8 +1,7 @@
 # 행렬 덧셈
 # 복습하기
-# 백준에서 EOF Error 발생
 
-M,N = map(int,input().split())
+N,M = map(int,input().split())
 
 matrix_a = []
 matrix_b = []
