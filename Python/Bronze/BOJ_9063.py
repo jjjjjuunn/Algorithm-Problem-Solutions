@@ -12,7 +12,7 @@ else:
     x_coords = [p[0] for p in points]
     y_coords = [p[1] for p in points]
 
-    width = max(x_coords)-min(x_coords)
+    width = max(x_coords) - min(x_coords)
     height = max(y_coords) - min(y_coords)
 
     print(width * height)
